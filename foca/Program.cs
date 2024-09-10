@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Feladat feladat = new Feladat();
+            feladat.Beolvas("meccs.txt");
         }
     }
 }
